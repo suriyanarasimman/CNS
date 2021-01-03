@@ -9,7 +9,7 @@ class TransCipher {
         String s = "";
         int start = 0;
         for (int i = 0; i < pl.length(); i++) {
-            if (pl.charAt(i) == ' ') {
+            if (pl.charAt(i) == ' ') { 
                 s = s + pl.substring(start, i);
                 start = i + 1;
             }
